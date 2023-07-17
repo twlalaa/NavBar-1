@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgb(247, 209, 215);
+  padding: 10px;
+}
+
+header {
+  padding: 10px 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.logo-1 {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li button {
+  font-size: 12px;
+  font-weight: 400;
+  background: none;
+  border: none;
+  color: #28353d;
+  cursor: pointer;
+}
+
+i {
+  color: #28353d;
+  width: 8px;
+  height: 4px;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-actions {
+  margin-right: 35px;
+  display: flex;
+}
+
+.header-light .magnifier {
+  background: none;
+  border: none;
+  color: #28353d;
+  margin-right: 35px;
+  position: relative;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-light .magnifier:after {
+  display: block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #e2e6e9;
+  position: absolute;
+  top: 0;
+  left: 32px;
+}
+
+.header-light .user {
+  background: none;
+  border: none;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header-light span {
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.header-dark {
+  background-color: #28353d;
+}
+
+.header-dark nav ul li button {
+  color: #fff;
+}
+
+.header-dark nav ul li button i {
+  color: #fff;
+}
+
+.header-dark span {
+  cursor: pointer;
+  font-size: 12px;
+  color: #fff;
+}
+
+.header-dark .magnifier {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-right: 35px;
+  position: relative;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-dark .magnifier i {
+  color: #fff;
+}
+
+.header-dark .magnifier:after {
+  display: block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #e2e6e9;
+  position: absolute;
+  top: 0;
+  left: 32px;
+}
+
+.header-dark .user {
+  margin-right: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.header-dark .user i {
+  font-size: 16px;
+  color: #fff;
+}
